@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg+xml" href="../fullerhouse.png">
+    <title>Atividades</title>
+    <link rel="stylesheet" href="stylecopy.css">
+    <style>
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        .nav__logo {
+            font-size: 24px;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        .nav__list {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        .nav__item {
+            display: inline-block;
+            margin-right: 20px;
+        }
+        .img {
+            text-align: center; 
+            margin-top: 20px;
+        }
+        .img img {
+            max-width: 100%;
+            height: auto;
+        }
+        .button-container {
+            margin-top: 20px;
+            text-align: center; 
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+        .button:hover {
+            background-color: #60a4cc;
+        }
+        p {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="" class="nav__logo">Enzo Zabadal</a>
+            <div class="nav__menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#subpage" class="nav__link">Atividades de Natureza</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <title>Portfolio </title>
+        
+    </header>
+
+    <main class="main">
+        <section class="subpage section" id="subpage">
+            <span class="section__subtitle">Subpágina</span>
+            <h2 class="section__title">Áreas</h2>
+            <div class="subpage__buttons">
+                <div class="button-container">
+                    <h2>1º Trimestre</h2>
+                    <a href="#" onclick="irParaBeux()" class="button button--go">Evolucionismo</a>
+                    <a href="#" onclick="irParaTai()" class="button button--go">Relatório de Circuitos</a>
+                    <a href="#" onclick="irParaMarga()" class="button button--go">Revisão de orgânica</a>
+                    <a href="#" onclick="irParaCadeias()" class="button button--go">Classificação de cadeias</a><br><br><br><br>
+                    <h2>2º Trimestre</h2>
+                    <a href="#" onclick="irParaRevista()" class="button button--go">Revista Relações Ecológicas</a>
+                    <a href="#" onclick="irParaMapa()" class="button button--go">Mapa mental</a>
+                    <a href="#" onclick="irParaCartaz()" class="button button--go">Cartaz polímero</a>
+                    <a href="#" onclick="irParaMagnetismo()" class="button button--go">Eletromagnetismo</a><br><br><br><br>
+                    <h2>3º Trimestre</h2>
+                    <a href="#" onclick="irParaRevista()" class="button button--go">Desequílibrios Ambientais</a>
+                    <a href="#" onclick="irParaMapa()" class="button button--go">Plano de expansão da produção de energia </a>
+                    <a href="#" onclick="irParaCartaz()" class="button button--go">Enriquecimento Do Urânio</a>
+                    <a href="#" onclick="irParaBiotecnologia()" class="button button--go">Biotecnologia</a>
+
+                </div>
+            </div>
+            <div class="button-container">
+                <a href="#" onclick="voltarParaIndex()" class="button button--back">Voltar</a>
+                <div class="img">
+                    <img src="science.jpeg  " alt="Imagem">
+            </div>
+        </section>
+    </main>
+
+    <script>  
+    function voltarParaIndex() {
+        window.location.href = '../atividades.html';
+    }
+    
+    function irParaBeux() {
+        window.location.href = 'beux.html';
+    }
+    function irParaTai() {
+        window.location.href = 'tai.html';
+    
+    }
+    function irParaMarga() {
+        window.location.href = 'marga.html';
+    }
+    function irParaCadeias() {
+        window.location.href = 'cadeias.html';
+    }
+    function irParaRevista() {
+        window.location.href = 'revista.html';
+    }
+    function irParaMapa() {
+        window.location.href = 'mapa.html';
+    }
+    function irParaCartaz() {
+        window.location.href = 'cartaz.html';
+    }
+    function irParaMagnetismo() {
+        window.location.href = 'magnetismo.html';
+    }
+    function irParaBiotecnologia() {
+        window.location.href = 'biotecnologia.html';
+    }
+    </script>
+    
+    </script>
+</body>
+</html>

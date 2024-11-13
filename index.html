@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <link rel="stylesheet" href="style1.css">
+        <meta charset="UTF-8">
+        <title>Portfolio</title>
+        <link rel="icon" type="image/svg+xml" href="fullerhouse.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- FAVICON -->
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+        <!-- BOXICONS -->
+        <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+        
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Portfolio </title>
+        <style>
+            .nav__links {
+                display: inline-block; /* Faz com que a div fique na mesma linha */
+            }
+    
+            .nav__link {
+                margin-right: 10px; /* Espaçamento entre os hiperlinks */
+            }
+        </style>
+    </head>
+    <body>
+      
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="" class="nav__logo">Enzo Zabadal</a>
+              
+
+                <div class="nav__menu">
+                    <ul class="mav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class='bx bx-home-alt'></i>
+                           </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">
+                                <i class='bx bx-user' ></i>
+                           </a>
+                        </li>
+ 
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class='bx bxs-book' ></i>
+                           </a>
+                        </li>
+                            
+                        <li class="nav__item">
+                            <a href="#works" class="nav__link">
+                                <i class='bx bx-briefcase-alt-2' ></i>
+                           </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">
+                                <i class='bx bx-message-square-detail' ></i>
+                           </a>
+                        </li>
+                    </ul>
+                </div>
+            
+            <!--=Botão de enfeite=-->
+            <i class='bx bx-moon change-theme'  id="theme-button"></i>
+            </nav>
+        </header>
+        <style>
+            
+            .button-container {
+                margin-top: 20px;
+                text-align: center;
+            }
+    
+            .button-container a {
+                display: inline-block;
+                margin-right: 10px;
+                margin-bottom: 10px;
+                padding: 10px 20px;
+                background-color: #f0f0f0;
+                color: #333;
+                text-decoration: none;
+                border-radius: 4px;
+                transition: background-color 0.3s, color 0.3s;
+            }
+    
+            .button-container a:hover {
+                background-color: #ddd;
+            }
+        </style>
+
+        <!--Declaração da main-->
+        <main class="main">
+            <!-- Programação da página inicial-->
+            <section class="home section" id="home">
+                <div class="home__container_container grid">
+                    <div class="home__data">
+                        <span class="home__greeting">Olá, Seja Bem vindo ao meu</span>
+                        <h1 class="home__name">Portfolio</h1>
+                        <h3 class="home__education">Enzo Zabadal 3°A</h3>
+
+                        <div class="home__buttons">
+                            <a  href="curriculum.html" class="button button--ghost">
+                               Curriculum vitae
+                            </a>
+                            <a href="#about" class="button">Sobre mim</a>
+                        </div>
+                    </div>
+                    
+                    <div class="home__handle" style="text-align: center;">
+                        <img src="FotoEnzo.jpeg" alt="Foto de Enzo" style="max-width: 300px;">
+                 
+                    
+                    
+                    
+                    
+
+                    <div class="home__social">
+                        <a href="https://www.linkedin.com/in/enzo-zabadal-179ba92b5/" class="home__social-link">
+                            <i class='bx bxl-linkedin-square' ></i>
+                        </a>
+                             
+                        <a href="https://github.com/Enzo-Zab" class="home__social-link">
+                            <i class='bx bxl-github' ></i>
+                        </a>
+                          
+                        
+                    </div> 
+
+                    <a href="#about" class="home__scroll">
+                        <i class='bx bx-mouse home__scroll-icon' ></i>
+                        <span class="home__scroll-name">Scroll Down</span>
+                    </a>
+                </div>
+            </section>
+            <!-- Subpágina com botões das áreas -->
+<!-- Subpágina com botões das áreas -->
+<section class="subpage section" id="subpage">
+    <span class="section__subtitle">Subpágina</span>
+    <h2 class="section__title">Áreas</h2>
+    <div class="subpage__buttons">
+        <div class="button-container">
+            <button class="button" onclick="window.location.href='atividades.html'">Atividades</button>
+            
+        </div>
+    </div>
+</section>
+
+
+
+  
+</section>
+
+<!-- PPE - Plano Pessoal de Estudos -->
+<section class="ppe section" id="ppe"><br><br>
+    <span class="section__subtitle">PPE - Plano Pessoal de Estudos</span>
+    <h2 class="section__title">Meu Plano Pessoal de Estudos</h2>
+    
+</section>
+
+<!-- Atividades extras e certificados -->
+
+<section class="activities section" id="activities">
+    <div class="grid-container">
+        <div class="img"><img src="atchim.png" alt="Imagem"></div>
+        <div class="img"><img src="atchim2.png" alt="Imagem"></div>
+        <div class="img"><img src="atchim3.png" alt="Imagem"></div>
+    </div>
+
+    <div class="button-container">
+        <a href="https://www.credly.com/badges/fc668947-4016-4d28-9a03-fd3fb1d063ec/linked_in_profile?trk=public_profile_see-credential" class="button">Certificado de Iot</a>
+        <a href="https://www.credly.com/badges/f47b397f-cd20-4e50-972b-5f091a132c7c/linked_in_profile?trk=public_profile_see-credential" class="button">Maratona</a>
+        <a href="https://www.credly.com/badges/0de6be39-144c-4313-8fe1-cbdf388d0948/linked_in_profile" class="button">Python</a>
+        <a href="https://www.credly.com/badges/27e90cdc-29a4-4216-80cd-5a98fb3326f3/linked_in_profile" class="button">Cibersegurança</a>
+    </div>
+
+</section>
+<div class="certificado">
+    <div class="img"><img src="Educação_Cooperativista-Certificado_digital_1443986_page-0001.jpg" alt="Imagem" class="centered-img"></div>
+</div>
+
+   
+</section>
+
+<!-- Portfólios anteriores -->
+<section class="portfolios section" id="portfolios">
+    <span class="section__subtitle">Portfólios Anteriores</span>
+    <h2 class="section__title">Meus Portfólios Anteriores</h2>
+    <section class="home__buttons">
+        <div class="button-row">
+            <a href="https://docs.google.com/presentation/d/13lI5Yy4Hy1hQggZGkHgdtz-Gs9hx4bVPztsg9G1oGaU/edit?usp=sharing" class="button button--ghost">1ª Portfolio 1 Trimestre</a><br>
+            <a href="https://docs.google.com/presentation/d/13lI5Yy4Hy1hQggZGkHgdtz-Gs9hx4bVPztsg9G1oGaU/edit?usp=sharing" class="button button--ghost">1ª Portfolio 2 Trimestre</a><br>
+            <a href="https://drive.google.com/file/d/1ee7t7nCKYjwLMak31KWTM7GDmHwimS6a/view?usp=sharing" class="button button--ghost">1ª Portfolio 3 Trimestre</a><br>
+        </div>
+        <div class="button-row">
+            <a href="https://docs.google.com/presentation/d/1mSVWIGqUsyao4sjAUyFbT0kab4jErWv9u6-jR-i7zIQ/edit?usp=sharing" class="button button--ghost">2ª Portfolio 1 Trimestre</a><br>
+            <a href="https://drive.google.com/file/d/17xt6GV6tJKi3ekKI433WkGuFwp2b4nkx/view?usp=sharing" class="button button--ghost">2ª Portfolio 2 Trimestre</a><br>
+            <a href="https://www.canva.com/design/DAFvYTLj6AU/0IuQUzWlCnSEV0-cSzMf4g/view?utm_content=DAFvYTLj6AU&utm_campaign=designshare&utm_medium=link&utm_source=editor" class="button button--ghost">2ª Portfolio 3 Trimestre</a>
+        </div>
+    </section>
+    
+    
+    
+   
+</section>
+
+            
+            <!-- SOBRE -->
+            <section class="about section" id="about">
+                <span class="section__subtitle">Meu projeto</span>
+                <h2 class="section__title">Sobre mim</h2>
+                <h3 class="section__subtitle">
+                    Olá, seja muito bem-vindo ao meu portfólio! Meu nome é Enzo Zabadal<br>
+                     de Oliveira e sou estudante da escola Sesi Senai. <br>
+                    Atualmente, estudo HTML, CSS, Javascript, Python e React.<br>
+                    Além disso, tenho paixão por tocar bateria,<br>
+                     jogar basquete, ir correr e ler livros sobre finanças<br>
+                      e conhecimento financeiro.Profissionalmente,<br>
+                     almejo construir uma carreira que una minhas paixões e interesses, <br>
+                     possibilitando-me explorar novas ideias<br>
+                      e desafios. Embora minha atual inclinação seja para a física,<br>
+                       reconheço o valor da programação e pretendo<br>
+                       integrar ambas as áreas em minha trajetória profissional.Por isso,<br> um trabalho que me permita viver confortavelmente<br>
+                        enquanto realizo estudos em Física parece ser ideal. Minha busca por conhecimento e crescimento pessoal me<br>
+                        motiva constantemente a explorar novas ideias e desafios. Acredito que a diversificação de interesses e <br>
+                        experiências é essencial para um desenvolvimento holístico e enriquecedor.Valorizo cada experiência como uma<br>
+                        oportunidade de aprendizado e crescimento, tanto pessoal quanto profissional.Ao refletir sobre minha<br>
+                        participação na vida social em geral, percebo que cada interação e experiência contribui para minha formação<br>
+                         como indivíduo. 
+            </section>
+
+            <!-- HABILIDADES -->
+            <section class="skills section" id="skills">
+               <h1 class="section__title">Habilidades</h1><br>
+                <h3 class="section__subtitle">Fluência em Inglês: Possuo fluência na língua inglesa, o que me permite comunicar <br>
+                    efetivamente em um ambiente internacional e colaborar em projetos com equipes multiculturais.<br>
+                    Minha habilidade em inglês amplia minhas oportunidades de networking e acesso a recursos e informações<br>
+                     relevantes no campo da tecnologia e desenvolvimento web.<br>
+                    Desenvolvimento Web: Estou aprendendo e estudando HTML, CSS, Javascript, Python e React.<br>
+                     Tenho habilidades para criar interfaces de usuário interativas e funcionais,<br>
+                     além de desenvolver aplicativos web dinâmicos e responsivos<br>
+                    Fluência em Tecnologia: Possuo uma compreensão sólida de tecnologias da informação e comunicação.<br>
+                     Isso inclui conhecimentos em linguagens de programação como Python,<br>
+                    que me permitem resolver problemas de forma eficiente e criar soluções inovadoras.<br>
+                    Habilidades Interpessoais: Sou capaz de trabalhar de forma colaborativa em equipe, <br>
+                    comunicando minhas ideias de maneira clara e eficaz.<br>
+                     Isso me permite contribuir positivamente em projetos colaborativos e alcançar resultados de alta qualidade.<br>
+                    Autodidata e Curiosidade: Tenho uma forte motivação para aprender e me desenvolver constantemente. <br>
+                    Minha curiosidade me impulsiona a explorar, novas tecnologias e técnicas,<br> 
+                    o que me permite acompanhar as tendências do mercado e me adaptar rapidamente a novos desafios.<br>
+                Resolução de Problemas: Desenvolvi habilidades analíticas e de resolução <br>
+                de problemas através do estudo de disciplinas. Isso me permite<br>
+                 abordar desafios complexos de forma estruturada e encontrar soluções eficazes,<br>
+                  tanto na programação quanto em outras áreas.<br>
+                Flexibilidade e Adaptabilidade: Estou aberto a novas ideias e experiências,<br>
+                 o que me torna capaz de me adaptar a diferentes ambientes de trabalho e responder de forma proativa<br>
+                 a mudanças. Minha capacidade de aprender rapidamente novas habilidades me <br>
+                 permite enfrentar novos desafios com confiança. </h3>
+                
+            </section>
+
+            <!-- SERVIÇOS -->
+            <section class="services section">
+                
+            </section>
+
+            <!-- ESCOLA -->
+            <section class="work section" id="work">
+                
+            </section>
+
+            <!--TESTIMONIALS -->
+            <section class="testimonial section">
+                
+            </section>
+
+            
+                
+            </section>
+        </main>
+
+        <!-- FOOTER -->
+        <footer class="footer">
+            
+        </footer>
+
+        <!-- SCROLL -->
+        <script src=""></script>
+
+        <!-- SWIPER JS -->
+        <script src=""></script>
+
+        <!-- MIXITUP FILTER -->
+        <script src=""></script>
+
+        <!-- MAIN JS -->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
