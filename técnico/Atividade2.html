@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg+xml" href="../fullerhouse.png">
+    <link rel="stylesheet" href="stylecopy.css">
+    <title>Portfolio - Enzo Zabadal</title>
+    <style>
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        .nav__logo {
+            font-size: 24px;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        .nav__list {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        .nav__item {
+            display: inline-block;
+            margin-right: 20px;
+        }
+        .img {
+            text-align: center; 
+            margin-top: 20px;
+        }
+        .img img {
+            max-width: 100%;
+            height: auto;
+        }
+        .button-container {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+        .button:hover {
+            background-color: #60a4cc;
+        }
+        p {
+            text-align: center; 
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <a href="#" class="nav__logo">Enzo Zabadal</a>
+            <h1>3 trimestre</h1>
+            
+        </nav>
+    </header>
+    <div class="container">
+        <div class="img">
+            <img src="jogovelha.PNG" alt="Imagem">
+          
+            <a href="https://drive.google.com/file/d/1_V4UpjjytHYD3RS6a12b5RnVo8m7eyhH/view?usp=sharing">
+                <p>Meus pensamentos sobre esta atividade: </p>
+            </a>
+            </a>
+            <p>
+                Habilidades: H3 e H4<br><br>
+
+                Criação do Projeto e Instalação de Pacotes<br>
+                Primeiro, criei o projeto e configurei o package.json para aceitar pacotes externos, o que me ajudou a entender como <br>
+                funciona o gerenciamento de dependências no Node.js. Essa parte foi simples, mas me fez perceber o quanto o gerenciamento
+                 de pacotes é importante quando se está desenvolvendo um projeto mais complexo, como uma API com Express.js. <br>
+                 Eu tive que rodar o comando npm init para criar o arquivo package.json e, em seguida, usei o npm para instalar os pacotes inquirer e chalk.<br><br>
+                
+                Interação com o Usuário<br>
+                Com o inquirer, fui capaz de criar um pequeno prompt que pedia ao usuário seu nome e idade. O processo de usar o inquirer<br>
+                 para capturar entradas do usuário foi interessante, pois me fez refletir sobre como as aplicações backend podem interagir<br>
+                  com os usuários, mesmo em uma interface de linha de comando. No Express, o processo é semelhante, mas em vez de um prompt<br>
+                   no terminal, eu trabalharia com formulários ou requisições HTTP, coletando dados através de APIs RESTful.<br><br>
+                
+                Formatando a Saída com o chalk<br>
+                Uma parte divertida foi usar o chalk para formatar a saída de texto no terminal. Eu personalizei a mensagem exibida, <br>
+                colocando o nome e a idade do usuário com um fundo amarelo e texto preto. Isso me fez perceber como a formatação e a <br>
+                visualização dos dados podem tornar a experiência do usuário mais agradável e intuitiva. Embora essa parte seja mais<br>
+                 voltada para a interface de linha de comando, eu consegui visualizar a aplicação de conceitos semelhantes em interfaces web.<br>
+                  Por exemplo, em uma aplicação Express, posso formatar respostas de forma amigável, enviando informações ao cliente de maneira clara e bem estruturada.<br><br>
+                
+                Tratamento de Erros com o catch<br>
+                Uma parte importante da atividade foi adicionar um tratamento de erros usando catch para o inquirer.<br> 
+                Isso me ajudou a entender como lidar com falhas que podem ocorrer ao interagir com o usuário. Esse conceito de captura e <br>
+                tratamento de erros é essencial também no desenvolvimento de APIs com Express. Quando criamos um servidor backend,<br>
+                 frequentemente nos deparamos com erros em requisições (por exemplo, quando o usuário envia dados inválidos). O tratamento <br>
+                 adequado desses erros, enviando respostas claras e úteis, é uma habilidade crucial para garantir uma boa experiência para 
+                 quem está consumindo a API.<br><br>
+                
+                Relação com o Express.js<br>
+                Embora essa atividade tenha sido mais focada em linha de comando e manipulação de dados no terminal, ela me preparou para<br>
+                 conceitos que são fundamentais no desenvolvimento de uma aplicação backend com Express.js. Quando comecei a trabalhar com <br>
+                 Express, vi que muitas das habilidades que utilizei aqui, como o uso de pacotes externos, o tratamento de erros e a coleta <br>
+                 de dados, são transferíveis para o contexto de uma API. No Express, vou precisar lidar com entradas do usuário, como parâmetros <br>
+                 de URL, dados de formulários, ou até mesmo requisições JSON. Além disso, o tratamento de erros e o uso de middleware são essenciais <br>
+                 para garantir que minha aplicação seja robusta e escalável.<br><br>
+                
+                Desafios e Aprendizados<br>
+                Um desafio que encontrei foi garantir que a entrada do usuário fosse tratada corretamente, especialmente quando eu queria garantir<br>
+                 que a resposta fosse válida (por exemplo, não permitindo que o usuário digitasse algo inválido). Esse tipo de validação é algo que, <br>
+                 no contexto do Express, se torna ainda mais importante, especialmente quando lidamos com dados de entrada em requisições HTTP. Além<br>
+                  disso, como minha experiência com Express é ainda recente, essa atividade me ajudou a ver como o desenvolvimento de APIs backend<br>
+                   pode ser mais simples e eficiente quando compreendemos o fluxo de dados e a interação com o usuário.<br><br>
+                
+                Conclusão<br>
+                Em resumo, essa atividade foi muito útil para me familiarizar com alguns conceitos iniciais de Node.js, como a instalação de pacotes,<br>
+                 interação com o terminal e tratamento de erros. Embora o foco tenha sido em uma aplicação de linha de comando, os conceitos que aprendi<br> 
+                 são totalmente aplicáveis ao desenvolvimento de APIs e servidores com Express.js. Agora, me sinto mais confortável em manipular entradas<br>
+                  e saídas de dados e em trabalhar com pacotes externos no Node.js, o que será essencial à medida que eu avançar para projetos mais<br>
+                   complexos, como a construção de APIs com Express.
+            </p>
+           
+        </div>
+        <div class="button-container">
+            <a href="#" onclick="voltarParaAtividades()" class="button">Voltar</a>
+        </div>
+    </div>
+    <script>
+        function voltarParaAtividades() {
+            window.location.href = 'técnico.html';
+        }
+    </script>
+    <script src="js.js"></script>
+</body>
+</html>

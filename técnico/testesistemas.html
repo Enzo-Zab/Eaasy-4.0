@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg+xml" href="../fullerhouse.png">
+    <link rel="stylesheet" href="stylecopy.css">
+    <title>Portfolio - Enzo Zabadal</title>
+    <style>
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        .nav__logo {
+            font-size: 24px;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        .nav__list {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        .nav__item {
+            display: inline-block;
+            margin-right: 20px;
+        }
+        .img {
+            text-align: center; 
+            margin-top: 20px;
+        }
+        .img img {
+            max-width: 100%;
+            height: auto;
+        }
+        .button-container {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+        .button:hover {
+            background-color: #60a4cc;
+        }
+        p {
+            text-align: center; 
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <a href="#" class="nav__logo">Enzo Zabadal</a>
+            <h1>3 trimestre</h1>
+            
+        </nav>
+    </header>
+    <div class="container">
+        <div class="img">
+            <img src="testesistemas.png" alt="Imagem">
+          
+            <a href="https://www.canva.com/design/DAGWWzjdCDw/CiidhTESObUPWCblY0X3Fw/view?utm_content=DAGWWzjdCDw&utm_campaign=designshare&utm_medium=link&utm_source=editor">
+                <p>Meus pensamentos sobre esta atividade: </p>
+            </a>
+            </a>
+            <p>
+                Habilidades: H3 e H4<br>
+                 TDD, Testes de Desempenho, Testes Funcionais, Testes de Segurança, Testes de Usabilidade, Testes de Compatibilidade, Testes de Aceitação, Testes de Manutenibilidade<br><br>
+
+                 1. TDD (Test-Driven Development):<br>
+                 Embora o foco principal da matéria não tenha sido o TDD, percebi a importância de pensar em testes enquanto desenvolvia o código. Por exemplo, ao criar o prompt <br>
+                 para a interação com o usuário usando o inquirer, poderia ter planejado antes um teste unitário para garantir que a entrada do usuário fosse validada corretamente. <br>
+                 Isso me fez refletir sobre como, ao usar o TDD, posso garantir que minha aplicação esteja funcionando conforme esperado desde as primeiras fases do desenvolvimento,
+                  o que é crucial para evitar problemas futuros.<br><br>
+                 
+                 2. Testes de Desempenho:<br>
+                 Ao trabalhar com pacotes como o chalk para formatar saídas no terminal, eu não cheguei a realizar testes de desempenho propriamente ditos, mas percebi como é importante<br>
+                  estar atento ao impacto que certas bibliotecas e funcionalidades podem ter na performance da aplicação. Por exemplo, um uso excessivo de formatação no terminal poderia<br>
+                   afetar a experiência do usuário em sistemas mais pesados. Em um projeto real de backend com Express.js, seria importante medir o desempenho das requisições e <br>
+                   respostas, garantindo que o uso de middleware e manipulação de dados não prejudique a performance.<br><br>
+                 
+                 3. Testes Funcionais:<br>
+                 Durante a matéria, minha preocupação com o correto funcionamento do prompt e a interação com o usuário me levou a refletir sobre como testes funcionais poderiam ser aplicados.<br>
+                  Testes funcionais garantiriam que a entrada de dados fosse capturada corretamente e que o sistema reagisse como esperado a diferentes interações do usuário. Isso é algo que <br>
+                  seria expandido ao trabalhar com uma API, onde, por exemplo, você testaria se as rotas estão retornando os dados corretos em uma requisição GET ou POST.<br><br>
+                 
+                 4. Testes de Segurança:<br>
+                 Embora eu não tenha abordado diretamente testes de segurança nesta matéria, ao pensar no tratamento de erros (com o uso de catch), percebi que a validação adequada da<br>
+                  entrada do usuário pode prevenir diversos tipos de ataques, como injeção de código. Em um projeto de API, garantir que as entradas dos usuários sejam validadas adequadamente<br>
+                  (como sanitização de dados) é essencial para evitar vulnerabilidades. Assim, a matéria me ajudou a refletir sobre a importância de aplicar testes de segurança na validação<br>
+                   de dados e controle de acesso em sistemas mais complexos.<br><br>
+                 
+                 5. Testes de Usabilidade:<br>
+                 Usar o chalk para formatar a saída no terminal foi uma das partes mais interessantes da matéria, porque percebi como a formatação pode melhorar a experiência do usuário.<br>
+                  Mesmo em um ambiente de linha de comando, tornar a saída mais visualmente atraente e fácil de entender é uma forma de garantir uma boa usabilidade. Em uma aplicação web, <br>
+                  o conceito de usabilidade se estenderia para a criação de interfaces claras e intuitivas, algo que deve ser validado através de testes de usabilidade, como feedbacks de <br>
+                  usuários reais sobre como eles interagem com a aplicação.<br><br>
+                 
+                 6. Testes de Compatibilidade:<br>
+                 Embora o foco da matéria tenha sido no uso do terminal, eu também refleti sobre a importância de garantir que o código funcione em diferentes ambientes e plataformas. <br>
+                 Quando desenvolvo uma API, por exemplo, posso precisar verificar se o servidor está funcionando corretamente tanto em ambientes de desenvolvimento quanto de produção,<br>
+                  e se diferentes navegadores ou sistemas operacionais são compatíveis com as funcionalidades oferecidas. Testes de compatibilidade podem ser essenciais para garantir <br>
+                  uma boa experiência para todos os usuários.<br><br>
+                 
+                 7. Testes de Aceitação:<br>
+                 Ao testar a funcionalidade do prompt e do sistema de entrada de dados, pensei em como seria útil garantir que o sistema estivesse atendendo aos requisitos do<br>
+                  cliente ou usuário final. Os testes de aceitação ajudariam a confirmar que o sistema está entregando exatamente o que foi solicitado, como garantir que o nome <br>
+                  e a idade do usuário fossem capturados e formatados corretamente.<br><br>
+                 
+                 8. Testes de Manutenibilidade:<br>
+                 Embora não tenha abordado diretamente a manutenibilidade nesta matéria, a maneira como configurei o projeto e organizei as dependências mostrou como essa etapa inicial<br>
+                  é fundamental para que, no futuro, eu possa adicionar novos pacotes ou funcionalidades sem comprometer o funcionamento do sistema. Em um projeto maior, como uma API, <br>
+                  a manutenibilidade seria garantida por meio de testes que validam mudanças no código, como a adição de novas rotas ou modificações no banco de dados.<br><br>
+                 
+                 Conclusão:<br>
+                 Essa matéria foi muito enriquecedora e me permitiu ver como a prática de criar uma aplicação simples em Node.js pode se conectar com conceitos e práticas de qualidade de<br>
+                  software, como TDD, testes de segurança, desempenho, funcionalidade, usabilidade, entre outros. Embora eu não tenha realizado esses testes de forma formal, foi possível <br>
+                  perceber como essas habilidades são essenciais no desenvolvimento de sistemas mais complexos, especialmente APIs com Express.js. A experiência foi útil para me preparar<br>
+                   para projetos futuros, onde essas habilidades de testes serão indispensáveis para garantir que o software seja robusto, seguro e fácil de manter. 
+            </p>
+           
+        </div>
+        <div class="button-container">
+            <a href="#" onclick="voltarParaAtividades()" class="button">Voltar</a>
+        </div>
+    </div>
+    <script>
+        function voltarParaAtividades() {
+            window.location.href = 'técnico.html';
+        }
+    </script>
+    <script src="js.js"></script>
+</body>
+</html>
